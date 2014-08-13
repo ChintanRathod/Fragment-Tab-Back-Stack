@@ -1,0 +1,16 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="orderScreenBottomPanelTabsStyle" parent="@android:style/TextAppearance.Small">
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tabs_text_color_blue</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

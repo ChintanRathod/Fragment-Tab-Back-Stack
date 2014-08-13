@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:ignore="MergeRootFrame" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:checkedButton="@+id/rbFirst"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rbFirst"
+            style="@style/orderScreenBottomPanelTabsStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="First" />
+
+        <RadioButton
+            android:id="@+id/rbSecond"
+            style="@style/orderScreenBottomPanelTabsStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Second" />
+
+        <RadioButton
+            android:id="@+id/rbThird"
+            style="@style/orderScreenBottomPanelTabsStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Third" />
+    </RadioGroup>
+
+</LinearLayout>
